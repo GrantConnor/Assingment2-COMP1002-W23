@@ -130,6 +130,10 @@ main {
     
 }
 
+main > p {
+    padding: 1em;
+}
+
 main > h2 {
     color:#c5bfbf;
     align-items: center;
