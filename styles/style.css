@@ -6,26 +6,25 @@ body {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    outline: 1px dashed #ddd;
-    background-color: rgb(243, 148, 59);
+    outline: 1px solid #ddd;
+    background-color: rgb(68, 6, 65);
 }
 
 header,
 main,
 aside,
 footer {
-    outline: 1px dashed #ccc;
+    outline: 1px solid #ccc;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* Defaults */
 h1 {
     font-size: 3.4em
+    
 }
 
-#Draven1 {
-    height: 300px;
-}
+
 
 #Draven2 {
     width: 80px;
@@ -40,6 +39,7 @@ p {
     font-size: 1.2em;
     line-height: 1.4em;
     margin: 0.5em 0;
+    color: #c5bfbf;
 }
 
 a {
@@ -50,7 +50,7 @@ a:hover {
     color: #c5bfbf;
 }
 
-/* USING FLEXBOX */
+
 /* Header */
 header {
     margin-bottom: 1em;
@@ -112,13 +112,45 @@ main {
     order: 2;
 }
 
-div>h1>p {
+main > h2 {
+    color: #c5bfbf;
+    text-align: center;
+}
+
+main >  p {
+    text-align: center;
+}
+
+div > h1 {
+    color: #c5bfbf;
+}
+
+div >h1 >p {
     align-items: center;
+}
+
+div > p {
+    outline: 1px solid #c5bfbf;
+}
+
+div > p:hover {
+    outline: 2px solid #8b8585;
+    background-color: #1f021b;
+    font-size: 1.3em;
 }
 
 aside {
     width: 30%;
     order: 1;
+    padding: 0.5em;
+}
+
+
+
+aside > h2 {
+    color: #c5bfbf;
+    padding: 1em;
+    text-align: center;
 }
 
 /* Footer */
